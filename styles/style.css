@@ -1,0 +1,316 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation style */
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.nav-bar h2{
+    font-size: 2em;
+    color: #0D1321;
+}
+.resume-btn button{
+    padding: 17px 24px 17px 24px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* Banner part styles */
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../assets/Hero-bg.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+.banner-content h1{
+    margin: 32px 0 24px 0;
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-content p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+.contact-btn{
+    color: white;
+    background-color: black;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+/* Main section */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+/* why web devolopment section styles */
+.why-dev-container{
+    padding: 80px 97px;
+    margin-top: 74px;
+    margin-bottom: 97px;
+    background-color: #0D132105;
+}
+.web-dev-title {
+    text-align: center;
+}
+.web-dev-title h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+.web-dev-title p{
+    font-size: 16px;
+    opacity: 0.7;
+    padding: 24px 0 48px 0;
+}
+
+.dev-container{
+    padding: 48px;
+    margin: 32px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.dev-title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321B3;
+}
+.dev-title p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0 32px 0;
+}
+.dev-title a {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 12px 20px;
+    color: #0D1321;
+    text-decoration: none;
+    border: 1px solid #0D1321B3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* my inspiration section */
+.my-inspiration{
+    text-align: center;
+}
+.youtube-vedio iframe {
+    margin: 100px 0 150px 0;
+    width: 100%;
+    height: 800px;
+    padding: 32px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+/* My current target styles */
+.current-target-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.targer{
+    padding: 40px;
+    background-color: #FF4C1E0D;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 30px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.target-container{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.learn-more{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0D1321;
+    border-bottom: 2px solid #0D1321;
+}
+.target-2{
+    background-color: #004CE80D;
+}
+.target-3{
+    background-color: #FFDF000D;
+}
+.current-target{
+    margin-bottom: 100px;
+}
+
+/* Next target section styles */
+.next-target-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.next{
+    padding: 40px;
+    border: 1px solid #0D132126;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.next-target-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target{
+    margin-bottom: 100px;
+}
+
+
+/* shared styles */
+
+.section-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.section-title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+
+/* i need support styles */
+.need-support{
+    padding: 64px;
+    text-align: center;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: darken;
+    background-position: center;
+    margin-bottom: 100px;    
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.support-discriotion{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 24px 0;
+}
+.support-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.support-form{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.support-form > input[type=text] {
+    padding: 20px;
+    outline: none;
+    width: 540px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.support-form > input[type=submit]{
+    padding: 15px 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* footer section style */
+footer{
+    background-color: #0D132108;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0D1321;
+}
+
+
